@@ -4,6 +4,7 @@ fn main() {
     sort(&mut number);
 
     println!("{:?}", number);
+    println!("{:?}", number);
 }
 
 fn sort(vec: &mut Vec<i32>) {
