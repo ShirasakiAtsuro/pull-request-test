@@ -1,5 +1,7 @@
 fn main() {
-    let number = vec![1, 5, 2, 4, 3];
+    let mut number = vec![1, 5, 2, 4, 3];
+
+    number.sort();
 
     println!("{:?}", number);
 }
